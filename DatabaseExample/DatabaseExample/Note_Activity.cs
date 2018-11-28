@@ -23,7 +23,8 @@ namespace DatabaseExample
             // Create your application here
             SetContentView(Resource.Layout.Note);
             string Note = Intent.GetStringExtra("note");
-            
+            TextView Notetext = FindViewById<TextView>(Resource.Id.Notetext);
+            Notetext.Text = Note;
         }
     }
 }
