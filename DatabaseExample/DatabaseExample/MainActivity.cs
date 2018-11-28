@@ -54,7 +54,7 @@ namespace DatabaseExample
             var databaseService = new DatabaseService();
             databaseService.CreateDatabase();
             var AllNotes = databaseService.GetAllStocks().ToList();
-            NoteActivity.PutExtra("note", AllNotes[e.Position].ToString());
+            NoteActivity.PutExtra("note", AllNotes[e.Position].Symbol.ToString());
             StartActivity(NoteActivity);
         }
 
