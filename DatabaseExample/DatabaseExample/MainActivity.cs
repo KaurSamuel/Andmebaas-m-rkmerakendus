@@ -19,8 +19,7 @@ namespace DatabaseExample
             SetContentView(Resource.Layout.activity_main);
 
             var NotesListView = FindViewById<ListView>(Resource.Id.listView1);
-            var addStockEditText = FindViewById<EditText>(Resource.Id.editText1);
-            var addButton = FindViewById<Button>(Resource.Id.button1);
+            var addButton = FindViewById<Button>(Resource.Id.Add_Note);
 
             var databaseService = new DatabaseService();
             databaseService.CreateDatabase();
@@ -34,8 +33,7 @@ namespace DatabaseExample
 
             addButton.Click += delegate
             {
-                var stockName = addStockEditText.Text;
-                databaseService.AddStock(stockName);
+                databaseService.AddStock("New Note");
 
                 stocks = databaseService.GetAllStocks();
                 NotesListView.Adapter = new CustomAdapter(this, stocks.ToList());
