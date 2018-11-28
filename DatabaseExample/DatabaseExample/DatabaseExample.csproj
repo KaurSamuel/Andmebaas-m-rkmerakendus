@@ -59,9 +59,11 @@
     <Compile Include="CustomAdapter.cs" />
     <Compile Include="DatabaseService.cs" />
     <Compile Include="MainActivity.cs" />
+    <Compile Include="Note_Activity.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Stock.cs" />
+    <Compile Include="Value.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -102,6 +104,11 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\layout\layout1.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\Note.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>

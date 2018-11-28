@@ -30,15 +30,7 @@ namespace DatabaseExample
             if (db.Table<Stock>().Count() == 0)
             {
                 var newStock = new Stock();
-                newStock.Symbol = "AAPL";
-                db.Insert(newStock);
-                newStock.Symbol = "AMD";
-                db.Insert(newStock);
-                newStock.Symbol = "TESLA";
-                db.Insert(newStock);
-                newStock.Symbol = "AMAZON";
-                db.Insert(newStock);
-                newStock.Symbol = "MSDN";
+                newStock.Symbol = "Test note";
                 db.Insert(newStock);
             }
         }
