@@ -632,20 +632,20 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\opilane\\.nuget\\packages\\": {}
+    "C:\\Users\\kaurs\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\opilane\\Documents\\GitHub\\Andmebaas-m-rkmerakendus\\DatabaseExample\\DatabaseExample\\DatabaseExample.csproj",
+      "projectUniqueName": "C:\\Users\\kaurs\\Documents\\GitHub\\Andmebaas-m-rkmerakendus\\DatabaseExample\\DatabaseExample\\DatabaseExample.csproj",
       "projectName": "DatabaseExample",
-      "projectPath": "C:\\Users\\opilane\\Documents\\GitHub\\Andmebaas-m-rkmerakendus\\DatabaseExample\\DatabaseExample\\DatabaseExample.csproj",
-      "packagesPath": "C:\\Users\\opilane\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\opilane\\Documents\\GitHub\\Andmebaas-m-rkmerakendus\\DatabaseExample\\DatabaseExample\\obj\\",
+      "projectPath": "C:\\Users\\kaurs\\Documents\\GitHub\\Andmebaas-m-rkmerakendus\\DatabaseExample\\DatabaseExample\\DatabaseExample.csproj",
+      "packagesPath": "C:\\Users\\kaurs\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\kaurs\\Documents\\GitHub\\Andmebaas-m-rkmerakendus\\DatabaseExample\\DatabaseExample\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
-        "C:\\Users\\opilane\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\kaurs\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

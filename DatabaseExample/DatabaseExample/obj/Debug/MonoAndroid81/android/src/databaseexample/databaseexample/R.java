@@ -2983,8 +2983,6 @@ containing a value of this type.
         public static final int beginning=0x7f08002f;
         public static final int blocking=0x7f080057;
         public static final int bottom=0x7f08003d;
-        public static final int button2=0x7f08009d;
-        public static final int button3=0x7f08009e;
         public static final int buttonPanel=0x7f080063;
         public static final int cancel_action=0x7f0800a4;
         public static final int center=0x7f080045;
@@ -3002,6 +3000,7 @@ containing a value of this type.
         public static final int customPanel=0x7f08006c;
         public static final int decor_content_parent=0x7f08007a;
         public static final int default_activity_button=0x7f080060;
+        public static final int delete_note=0x7f08009d;
         public static final int design_bottom_sheet=0x7f080093;
         public static final int design_menu_item_action_area=0x7f08009a;
         public static final int design_menu_item_action_area_stub=0x7f080099;
@@ -3065,6 +3064,7 @@ containing a value of this type.
         public static final int right_side=0x7f0800aa;
         public static final int save_image_matrix=0x7f08000c;
         public static final int save_non_transition_alpha=0x7f08000d;
+        public static final int save_note=0x7f08009e;
         public static final int save_scale_type=0x7f08000e;
         public static final int screen=0x7f080029;
         public static final int scroll=0x7f080042;

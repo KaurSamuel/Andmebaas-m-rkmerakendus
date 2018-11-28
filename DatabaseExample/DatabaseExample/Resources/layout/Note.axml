@@ -21,12 +21,12 @@
 				android:text="Delete Note"
 				android:layout_width="188.0dp"
 				android:layout_height="wrap_content"
-				android:id="@+id/button2" />
+				android:id="@+id/delete_note" />
 			<Button
 				android:text="Save Note"
 				android:layout_width="195.0dp"
 				android:layout_height="match_parent"
-				android:id="@+id/button3" />
+				android:id="@+id/save_note" />
 		</LinearLayout>
 		<EditText
 			android:inputType="textMultiLine"

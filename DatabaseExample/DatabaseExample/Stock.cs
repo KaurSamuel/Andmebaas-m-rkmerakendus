@@ -6,7 +6,7 @@ namespace DatabaseExample
     {
         [PrimaryKey, AutoIncrement, Column("_id")]
         public int Id { get; set; }
-        [MaxLength(8)]
+        //[MaxLength(8)]
         public string Symbol { get; set; }
     }
 }

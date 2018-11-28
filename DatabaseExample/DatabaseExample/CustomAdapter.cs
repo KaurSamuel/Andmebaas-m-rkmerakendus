@@ -31,7 +31,7 @@ namespace DatabaseExample
 
         public override Java.Lang.Object GetItem(int position)
         {
-            return null; // could wrap a Contact in a Java.Lang.Object to return it here if needed
+            return null; 
         }
 
         public override long GetItemId(int position)

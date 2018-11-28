@@ -35,11 +35,19 @@ namespace DatabaseExample
             }
         }
 
-        public void AddStock(string name)
+        public void RemoveNote(Stock note)
         {
-            var newStock = new Stock();
-            newStock.Symbol = name;
-            db.Insert(newStock);
+            db.Delete(note);
+        }
+
+        public void UpdateNote(Stock note)
+        {
+            db.Update(note);
+        }
+
+        public void AddStock(Stock note)
+        {
+            db.Insert(note);
         }
 
         public TableQuery<Stock> GetAllStocks()

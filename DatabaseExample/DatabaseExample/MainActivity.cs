@@ -33,8 +33,10 @@ namespace DatabaseExample
 
             addButton.Click += delegate
             {
-                databaseService.AddStock("New Note");
-
+                //databaseService.AddStock("New Note");
+                Stock note = new Stock();
+                note.Symbol = "new note";
+                databaseService.AddStock(note);
                 stocks = databaseService.GetAllStocks();
                 NotesListView.Adapter = new CustomAdapter(this, stocks.ToList());
             };
@@ -43,16 +45,17 @@ namespace DatabaseExample
         private void NotesListView_Click(object sender, AdapterView.ItemClickEventArgs e)
         {
             
-        //    var commentActivity = new Intent(this, typeof(Comments));
-        //    Value.Comments = new List<Comment>();
-        //    Value.Comments.Add(All_Post[e.Position].Comment);
+         //    var commentActivity = new Intent(this, typeof(Comments));
+         //    Value.Comments = new List<Comment>();
+         //    Value.Comments.Add(All_Post[e.Position].Comment);
 
-        //    StartActivity(commentActivity);
+         //    StartActivity(commentActivity);
             var NoteActivity = new Intent(this, typeof(Note_Activity));
             var databaseService = new DatabaseService();
             databaseService.CreateDatabase();
             var AllNotes = databaseService.GetAllStocks().ToList();
-            NoteActivity.PutExtra("note", AllNotes[e.Position].Symbol.ToString());
+            NoteActivity.PutExtra("symbol", AllNotes[e.Position].Symbol.ToString());
+            NoteActivity.PutExtra("id", AllNotes[e.Position].Id.ToString());
             StartActivity(NoteActivity);
         }
 

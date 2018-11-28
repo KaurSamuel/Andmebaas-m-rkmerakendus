@@ -2435,12 +2435,6 @@ namespace DatabaseExample
 			// aapt resource value: 0x7f08003d
 			public const int bottom = 2131230781;
 			
-			// aapt resource value: 0x7f08009d
-			public const int button2 = 2131230877;
-			
-			// aapt resource value: 0x7f08009e
-			public const int button3 = 2131230878;
-			
 			// aapt resource value: 0x7f080063
 			public const int buttonPanel = 2131230819;
 			
@@ -2491,6 +2485,9 @@ namespace DatabaseExample
 			
 			// aapt resource value: 0x7f080060
 			public const int default_activity_button = 2131230816;
+			
+			// aapt resource value: 0x7f08009d
+			public const int delete_note = 2131230877;
 			
 			// aapt resource value: 0x7f080093
 			public const int design_bottom_sheet = 2131230867;
@@ -2680,6 +2677,9 @@ namespace DatabaseExample
 			
 			// aapt resource value: 0x7f08000d
 			public const int save_non_transition_alpha = 2131230733;
+			
+			// aapt resource value: 0x7f08009e
+			public const int save_note = 2131230878;
 			
 			// aapt resource value: 0x7f08000e
 			public const int save_scale_type = 2131230734;

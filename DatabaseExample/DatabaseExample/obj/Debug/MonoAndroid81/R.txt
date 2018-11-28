@@ -769,8 +769,6 @@ int id auto 0x7f080044
 int id beginning 0x7f08002f
 int id blocking 0x7f080057
 int id bottom 0x7f08003d
-int id button2 0x7f08009d
-int id button3 0x7f08009e
 int id buttonPanel 0x7f080063
 int id cancel_action 0x7f0800a4
 int id center 0x7f080045
@@ -788,6 +786,7 @@ int id custom 0x7f08006d
 int id customPanel 0x7f08006c
 int id decor_content_parent 0x7f08007a
 int id default_activity_button 0x7f080060
+int id delete_note 0x7f08009d
 int id design_bottom_sheet 0x7f080093
 int id design_menu_item_action_area 0x7f08009a
 int id design_menu_item_action_area_stub 0x7f080099
@@ -851,6 +850,7 @@ int id right_icon 0x7f0800ae
 int id right_side 0x7f0800aa
 int id save_image_matrix 0x7f08000c
 int id save_non_transition_alpha 0x7f08000d
+int id save_note 0x7f08009e
 int id save_scale_type 0x7f08000e
 int id screen 0x7f080029
 int id scroll 0x7f080042
