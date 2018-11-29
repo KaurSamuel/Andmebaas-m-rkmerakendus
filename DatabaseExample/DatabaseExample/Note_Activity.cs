@@ -37,8 +37,12 @@ namespace DatabaseExample
 
         private void save_Click(object sender, EventArgs e)
         {
+
+            //Mingi asja pärast UptateNote ja DeleteNote ei tööta 
+            //äkki saate aru mis siin valesti on
+
             var note_text = FindViewById<TextView>(Resource.Id.Notetext);
-            int debug = int.Parse(Intent.GetStringExtra("id"));
+            //int debug = int.Parse(Intent.GetStringExtra("id"));
             note.Id = int.Parse(Intent.GetStringExtra("id"));
             note.Symbol = note_text.Text;
             databaseService.UpdateNote(note);

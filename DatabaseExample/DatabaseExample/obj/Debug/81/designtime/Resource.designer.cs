@@ -2369,6 +2369,9 @@ namespace DatabaseExample
 			// aapt resource value: 0x7F0C0015
 			public const int add = 2131492885;
 			
+			// aapt resource value: 0x7F010003
+			public const int Add_Note = 2130771971;
+			
 			// aapt resource value: 0x7F0C0016
 			public const int alertTitle = 2131492886;
 			
@@ -2383,9 +2386,6 @@ namespace DatabaseExample
 			
 			// aapt resource value: 0x7F0C001A
 			public const int bottom = 2131492890;
-			
-			// aapt resource value: 0x7F010004
-			public const int button1 = 2130771972;
 			
 			// aapt resource value: 0x7F0C001B
 			public const int buttonPanel = 2131492891;
@@ -2423,6 +2423,9 @@ namespace DatabaseExample
 			// aapt resource value: 0x7F0C0026
 			public const int default_activity_button = 2131492902;
 			
+			// aapt resource value: 0x7F010006
+			public const int delete_note = 2130771974;
+			
 			// aapt resource value: 0x7F0C0027
 			public const int design_bottom_sheet = 2131492903;
 			
@@ -2437,9 +2440,6 @@ namespace DatabaseExample
 			
 			// aapt resource value: 0x7F0C002B
 			public const int design_navigation_view = 2131492907;
-			
-			// aapt resource value: 0x7F010003
-			public const int editText1 = 2130771971;
 			
 			// aapt resource value: 0x7F0C002C
 			public const int edit_query = 2131492908;
@@ -2504,11 +2504,14 @@ namespace DatabaseExample
 			// aapt resource value: 0x7F010002
 			public const int linearLayout1 = 2130771970;
 			
+			// aapt resource value: 0x7F010005
+			public const int linearLayout2 = 2130771973;
+			
 			// aapt resource value: 0x7F0C0040
 			public const int listMode = 2131492928;
 			
-			// aapt resource value: 0x7F010005
-			public const int listView1 = 2130771973;
+			// aapt resource value: 0x7F010004
+			public const int listView1 = 2130771972;
 			
 			// aapt resource value: 0x7F0C0041
 			public const int list_item = 2131492929;
@@ -2536,6 +2539,9 @@ namespace DatabaseExample
 			
 			// aapt resource value: 0x7F0C0010
 			public const int normal = 2131492880;
+			
+			// aapt resource value: 0x7F010008
+			public const int Notetext = 2130771976;
 			
 			// aapt resource value: 0x7F0C0011
 			public const int notification_background = 2131492881;
@@ -2581,6 +2587,9 @@ namespace DatabaseExample
 			
 			// aapt resource value: 0x7F0C0058
 			public const int save_non_transition_alpha = 2131492952;
+			
+			// aapt resource value: 0x7F010007
+			public const int save_note = 2130771975;
 			
 			// aapt resource value: 0x7F0C0059
 			public const int save_scale_type = 2131492953;
@@ -2931,6 +2940,9 @@ namespace DatabaseExample
 			
 			// aapt resource value: 0x7F020003
 			public const int layout1 = 2130837507;
+			
+			// aapt resource value: 0x7F020004
+			public const int Note = 2130837508;
 			
 			// aapt resource value: 0x7F0F0001
 			public const int notification_action = 2131689473;
