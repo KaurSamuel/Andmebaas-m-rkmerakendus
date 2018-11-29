@@ -18,6 +18,11 @@ namespace DatabaseExample
             // Set our view from the "main" layout resource
             SetContentView(Resource.Layout.activity_main);
 
+            //kasutasin teie Database exaple vundamendina
+            //aga kõik muu on ise peale kirjutatud
+
+
+
             var NotesListView = FindViewById<ListView>(Resource.Id.listView1);
             var addButton = FindViewById<Button>(Resource.Id.Add_Note);
             var refreshbutton = FindViewById<Button>(Resource.Id.Refresh);
