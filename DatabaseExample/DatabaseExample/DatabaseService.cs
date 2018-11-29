@@ -27,12 +27,7 @@ namespace DatabaseExample
         public void CreateTableWithData()
         {
             db.CreateTable<Stock>();
-            if (db.Table<Stock>().Count() == 0)
-            {
-                var newStock = new Stock();
-                newStock.Symbol = "Test note";
-                db.Insert(newStock);
-            }
+            
         }
 
         public void RemoveNote(Stock note)
