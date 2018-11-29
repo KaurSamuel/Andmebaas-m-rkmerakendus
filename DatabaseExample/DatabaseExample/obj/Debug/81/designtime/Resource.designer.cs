@@ -2423,8 +2423,8 @@ namespace DatabaseExample
 			// aapt resource value: 0x7F0C0026
 			public const int default_activity_button = 2131492902;
 			
-			// aapt resource value: 0x7F010006
-			public const int delete_note = 2130771974;
+			// aapt resource value: 0x7F010007
+			public const int delete_note = 2130771975;
 			
 			// aapt resource value: 0x7F0C0027
 			public const int design_bottom_sheet = 2131492903;
@@ -2504,14 +2504,14 @@ namespace DatabaseExample
 			// aapt resource value: 0x7F010002
 			public const int linearLayout1 = 2130771970;
 			
-			// aapt resource value: 0x7F010005
-			public const int linearLayout2 = 2130771973;
+			// aapt resource value: 0x7F010006
+			public const int linearLayout2 = 2130771974;
 			
 			// aapt resource value: 0x7F0C0040
 			public const int listMode = 2131492928;
 			
-			// aapt resource value: 0x7F010004
-			public const int listView1 = 2130771972;
+			// aapt resource value: 0x7F010005
+			public const int listView1 = 2130771973;
 			
 			// aapt resource value: 0x7F0C0041
 			public const int list_item = 2131492929;
@@ -2540,8 +2540,8 @@ namespace DatabaseExample
 			// aapt resource value: 0x7F0C0010
 			public const int normal = 2131492880;
 			
-			// aapt resource value: 0x7F010008
-			public const int Notetext = 2130771976;
+			// aapt resource value: 0x7F010009
+			public const int Notetext = 2130771977;
 			
 			// aapt resource value: 0x7F0C0011
 			public const int notification_background = 2131492881;
@@ -2573,6 +2573,9 @@ namespace DatabaseExample
 			// aapt resource value: 0x7F0C0053
 			public const int radio = 2131492947;
 			
+			// aapt resource value: 0x7F010004
+			public const int Refresh = 2130771972;
+			
 			// aapt resource value: 0x7F0C0054
 			public const int right = 2131492948;
 			
@@ -2588,8 +2591,8 @@ namespace DatabaseExample
 			// aapt resource value: 0x7F0C0058
 			public const int save_non_transition_alpha = 2131492952;
 			
-			// aapt resource value: 0x7F010007
-			public const int save_note = 2130771975;
+			// aapt resource value: 0x7F010008
+			public const int save_note = 2130771976;
 			
 			// aapt resource value: 0x7F0C0059
 			public const int save_scale_type = 2131492953;

@@ -20,20 +20,25 @@ namespace DatabaseExample
 
             var NotesListView = FindViewById<ListView>(Resource.Id.listView1);
             var addButton = FindViewById<Button>(Resource.Id.Add_Note);
-
+            var refreshbutton = FindViewById<Button>(Resource.Id.Refresh);
             var databaseService = new DatabaseService();
             databaseService.CreateDatabase();
             databaseService.CreateTableWithData();
             var stocks = databaseService.GetAllStocks();
             
-
+            NotesListView.Adapter = new CustomAdapter(this, stocks.ToList());
             NotesListView.ItemClick += NotesListView_Click;
 
-            NotesListView.Adapter = new CustomAdapter(this, stocks.ToList());
+
+            refreshbutton.Click += delegate //enam pole eriti vaja aga võib ikkagi jääda
+            {
+                stocks = databaseService.GetAllStocks();
+                NotesListView.Adapter = new CustomAdapter(this, stocks.ToList());
+            };
+
 
             addButton.Click += delegate
             {
-                //databaseService.AddStock("New Note");
                 Stock note = new Stock();
                 note.Symbol = "new note";
                 databaseService.AddStock(note);
@@ -44,12 +49,6 @@ namespace DatabaseExample
 
         private void NotesListView_Click(object sender, AdapterView.ItemClickEventArgs e)
         {
-            
-         //    var commentActivity = new Intent(this, typeof(Comments));
-         //    Value.Comments = new List<Comment>();
-         //    Value.Comments.Add(All_Post[e.Position].Comment);
-
-         //    StartActivity(commentActivity);
             var NoteActivity = new Intent(this, typeof(Note_Activity));
             var databaseService = new DatabaseService();
             databaseService.CreateDatabase();
@@ -57,6 +56,9 @@ namespace DatabaseExample
             NoteActivity.PutExtra("symbol", AllNotes[e.Position].Symbol.ToString());
             NoteActivity.PutExtra("id", AllNotes[e.Position].Id.ToString());
             StartActivity(NoteActivity);
+            var NotesListView = FindViewById<ListView>(Resource.Id.listView1);
+            var stocks = databaseService.GetAllStocks();
+            NotesListView.Adapter = new CustomAdapter(this, stocks.ToList());
         }
 
     }

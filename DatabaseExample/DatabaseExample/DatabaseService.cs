@@ -43,7 +43,7 @@ namespace DatabaseExample
         public void UpdateNote(Stock note)
         {
             //ütleb siin et db väärtuseks on null aga samas AddStock töötab
-
+           
             db.Update(note);
         }
 

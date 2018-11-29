@@ -17,7 +17,13 @@
 			android:layout_height="match_parent"
 			android:id="@+id/Add_Note"
 			android:layout_weight="1" />
+		<Button
+			android:text="Refresh"
+			android:layout_width="190.5dp"
+			android:layout_height="wrap_content"
+			android:id="@+id/Refresh" />
 	</LinearLayout>
+	
 	<ListView
 		android:minWidth="25px"
 		android:minHeight="25px"

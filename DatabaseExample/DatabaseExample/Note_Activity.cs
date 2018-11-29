@@ -29,7 +29,7 @@ namespace DatabaseExample
             Notetext.Text = Note;
             var save_note = FindViewById<Button>(Resource.Id.save_note);
             var delete_note = FindViewById<Button>(Resource.Id.delete_note);
-
+            databaseService.CreateDatabase();
             save_note.Click += save_Click;
             delete_note.Click += Delete_Click;
 
@@ -38,15 +38,12 @@ namespace DatabaseExample
         private void save_Click(object sender, EventArgs e)
         {
 
-            //Mingi asja pärast UptateNote ja DeleteNote ei tööta 
-            //äkki saate aru mis siin valesti on
-
             var note_text = FindViewById<TextView>(Resource.Id.Notetext);
-            //int debug = int.Parse(Intent.GetStringExtra("id"));
             note.Id = int.Parse(Intent.GetStringExtra("id"));
             note.Symbol = note_text.Text;
             databaseService.UpdateNote(note);
-
+            var Activity = new Intent(this, typeof(MainActivity));
+            StartActivity(Activity);
         }
 
         private void Delete_Click(object sender, EventArgs e)
@@ -57,7 +54,8 @@ namespace DatabaseExample
             note.Id = int.Parse(Intent.GetStringExtra("id"));
             note.Symbol = Intent.GetStringExtra("symbol");
             databaseService.RemoveNote(note);
-            Finish();
+            var Activity = new Intent(this, typeof(MainActivity));
+            StartActivity(Activity);
         }
     }
 }
